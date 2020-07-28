@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+
+#top {
+    color: crimson;
+}
+
+#id-1{
+    color: crimson;
+}
+
+
+
+tr:first-child{
+    background-color: pink;
+}
+
+th:first-child{
+    background-color: pink;
+}
+
+
+a:link{
+    color:skyblue;
+}
+
+
+a:visited{
+    color:mediumpurple;
+}
+
+h1:hover{
+    font-size: 3em;
+}
+
+
+
+button {
+    font-size: 1.0em;
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: #ed93b0;
+    color: #fff;
+    border-style: none;
+}
+
+
+

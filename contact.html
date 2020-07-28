@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+    <head>
+        <meta charset=utf-8 />
+        <meta name="author" content="MegumiMiyashita" />
+        <meta name="keywords" content="html, css, javascript" />
+        <link rel="stylesheet" href="./css/contact.css">
+        <script src="./js/contact.js"></script>
+        <title>問い合わせ</title>
+        
+    </head>
+    
+    <body> 
+        <header>
+            <h1 id="top">問い合わせ</h1>
+            <nav>
+                <button onclick="location.href='Main%20page.html'">HOME（留学歴）</button>
+                <button onclick="location.href='./singapore.html'">シンガポール</button>
+                <button onclick="location.href='./philippines.html'">フィリピン</button>
+                <button onclick="location.href='./canada.html'">カナダ</button>
+                <button onclick="location.href='./vietnam.html'">ベトナム</button>
+                <button onclick="location.href='./contact.html'">問い合わせ</button>
+            </nav>
+        </header>
+        
+        <div style="font-size: 20px">
+         
+        ーーーーーーーーーーーー
+        <br>
+        
+        <address>
+        問い合わせは、<a href="mailto:e1821518@soka-u.jp">e1821518@soka-u.jp</a>までメールをお送りいただくか、下記フォームにご回答ください。
+        </address>
+            
+        
+        ーーーーーーーーーーーー  
+        </div>    
+            
+        <img src="references/mail.gif" width="200" alt="メール" />
+            
+        
+         <div>
+            
+                <h2>-お問い合わせ-</h2>
+                
+                <form action="#" method="post" name="contact">
+               
+                   <p>
+                        <label for="last-name"> 姓：</label>
+                        <input type="text" name="lastname" id="last-name" placeholder="姓" required />
+                        
+                    
+                        <label>
+                        名：
+                        <input type="text" name="firstname" required/>
+                        </label>
+                        <!--姓と名でコードの書き方が違うが、どちらでもいい！好きな方を使う-->
+                    </p> 
+                    
+                   
+                    <p>
+                        <label for="agreement">プライバシーポリシーに同意する</label>
+                        <input type="checkbox" name="agreement" id="agreement" checked />
+                       
+                    </p>
+                    
+                    <p>
+                        <label><input type="radio" name="seibetsu" value="female" />女性</label>
+                        <label><input type="radio" name="seibetsu" value="male" />男性</label>  
+                        <label><input type="radio" name="seibetsu" value="other" />その他</label>
+                        
+                    </p>
+                    
+                    <p>
+                        <label  for="requests">質問事項：</label>
+                        <textarea name="requests" rows="8" cols="60"></textarea>
+                    </p>
+                    
+                    
+                    
+                    <p>
+                        <label>電話番号：</label>
+                        <input type="tel" />
+                    </p>
+                    
+                    <p>
+                        <label>メアド：</label>
+                        <input type="text" name="mail" required/>
+                    </p>
+                    
+                    
+                    
+                    <p>
+                        <input type="submit" onclick="check()" value="送信する" />
+                        <input type="reset" value="リセット" />
+                        
+                    </p>
+                    
+                    
+                </form>
+            
+            </div>
+         
+    
+    <footer>
+        
+        
+        Copyright &copy; Megumi Miyashita. All Rights Reserved.
+    </footer>
+    
+</body>
+
+
+</html>

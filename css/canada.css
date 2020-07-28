@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+
+/* IDセレクタ */
+#top {
+    color: crimson;
+}
+
+
+
+
+tr:first-child{
+    background-color: pink;
+}
+
+th:first-child{
+    background-color: pink;
+}
+
+
+
+
+/*未訪問のリンクの色を変える*/
+a:link{
+    color:skyblue;
+}
+
+/*訪問済みのリンクの色を変える*/
+a:visited{
+    color:mediumpurple;
+}
+
+/*h1にマウスを近づけると、文字が3emまででかくなる*/
+h1:hover{
+    font-size: 3em;
+}
+
+button {
+    font-size: 1.0em;
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: #ed93b0;
+    color: #fff;
+    border-style: none;
+}
+
+
+
+
+
+
+
